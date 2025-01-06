@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---LINK SWIPER JS------>
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!--FONT-AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--MAIN CSS-->
+    <link rel="stylesheet" href="style/style.css">
+    <title>My personal website page desigen</title>
+
+    <script>
+        function birka() {
+            Swal.fire({
+                title: "Server not Connected !",
+                text: "Thank You !",
+                icon: "question"
+                });
+        }
+
+    </script>
+</head>
+<body>
+    <!--HEADER DESIGE-->
+    
+    <header class="header">
+        <a href="#" class="logo">BIRKANG</a>
+        <i class="fa-solid fa-bars"id="menu-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!--HOME SECTION DESIGE-->
+    <section class="home" id="home">
+        <div class="home-contain">
+            <h3>Hi, My Name is</h3>
+            <h1>Birkang</h1>
+            <h3>And I'm <span class="multiple-text"></span></h3>
+            <p>Hello and thank you for visiting! This is a space where I share my journey and experiences in both <br>mechanical engineering and information technology.With a solid foundation in hands-on technical <br> skills and a strong grasp of computer applications, I’m excited to connect and share my work with you. <br>
+            <br>
+            Feel free to explore my page and get in touch if you’d like to learn more or collaborate!</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i onclick="birka()" class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i onclick="birka()" class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i onclick="birka()" class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a target="_blank" href="resum/Resum -CV-.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="my logo/Picsart_24-11-17_10-39-11-559.png" alt="">
+        </div>
+    </section>
+
+    <!--ABOUT SECTION DESIGE-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="my logo/my-logo.jpg" alt="">
+        </div>
+
+        <div class="about-contain">
+            <h2 class="heading">About <Span>Me</Span></h2>
+            <h3>Web Developer</h3>
+            <p>
+
+              I have a diverse educational background that blends both technical and computer application skills. My journey began with completing my 10th grade, which laid the foundation for my academic growth. Afterward, I pursued my 12th grade, further building on that knowledge in a specialized stream (Arts). ITI (Industrial Training Institute) - Fitter Trade (2 Years Course): Completed a two-year course in the Fitter trade, gaining practical skills in the assembly, maintenance, and repair of machinery and equipment. This hands-on training provided you with in-depth knowledge in mechanical fitting, including the use of tools, machinery operation, and an understanding of mechanical systems. Building on my technical knowledge, I then pursued a IT "O" Level. This allowed me to gain a deeper understanding of computers, programming, software development, and IT systems, further enhancing my skill set for roles in the growing IT and technology sectors. My education has provided me with a unique combination of mechanical, technical, and IT knowledge, making me adaptable to a wide range of career opportunities in both industrial and IT-related fields.
+            </p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+    <!--SERVICES SECTION DESIGE-->
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="servces-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, sit. Corporis, repudiandae non, a distinctio maxime corrupti molestiae molestias rem soluta quaerat porro facere quisquam.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="servces-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>BI/BR Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, sit. Corporis, repudiandae non, a distinctio maxime corrupti molestiae molestias rem soluta quaerat porro facere quisquam.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="servces-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>App Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, sit. Corporis, repudiandae non, a distinctio maxime corrupti molestiae molestias rem soluta quaerat porro facere quisquam.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--PORTFOLIO SECTION DESIGE-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="portfolio img/1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="portfolio img/2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="portfolio img/3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="portfolio img/1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="portfolio img/2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="portfolio img/3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--ITI FITTER SECTION DESIGE-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">ITI Fitter <span>Trade</span></h2>
+    
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="iti trade/1.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Lath Operation</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+    
+                <div class="portfolio-box">
+                    <img src="iti trade/2.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Welding</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+    
+                <div class="portfolio-box">
+                    <img src="iti trade/3.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Pipe Fiter</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+    
+                <div class="portfolio-box">
+                    <img src="iti trade/6.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+    
+                <div class="portfolio-box">
+                    <img src="iti trade/3.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+    
+                <div class="portfolio-box">
+                    <img src="iti trade/2.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        
+         <!--IMAGES SLIDER SECTION DESIGE-->
+         
+        <section class="portfolio-slide" id="portfolio">
+            <h2 class="heading-1">ITI Fitter <span class="tt">Trade</span></h2>
+         <div class="container swiper">
+            <div class="slider-wrapper">
+                <div class="card-list swiper-wrapper">
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/1.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/2.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/3.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/14.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/5.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/6.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/7.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/8.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/9.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/10.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/11.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/12.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/13.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/4.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="fitter images/15.jpg" alt="" class="user-imag">
+                        
+                        
+                    </div>
+
+                
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!--CONTACT SECTION DESIGE-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="name">
+                <input type="email" placeholder="Email Address" id="email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" id="phone">
+                <input type="text" placeholder="Email Subject" id="email-subject">
+            </div>
+            <textarea name="" cols="30" rows="10" placeholder="Your Message" id="Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+    </section>
+
+
+    <!--FOOTER SECTION DESIGE-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2025 by @birkang |All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+
+   
+    
+
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   
+
+
+
+    
+     <!--SCROLL REVEAL-->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-----SWIPER JS------>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--MAIN JS-->
+    <script src="javascript/main.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
